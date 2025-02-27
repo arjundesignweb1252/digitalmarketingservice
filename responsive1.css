@@ -1,0 +1,125 @@
+@media only screen and (max-width: 768px){
+    .banner-img{
+        display: none;
+    }
+}
+@media only screen and (max-width: 767px){
+    .mobile-banner-img{
+        background-image: linear-gradient(rgb(6, 0, 0),rgba(203, 203, 203, 0.088)), url("https://img.freepik.com/free-vector/gradient-blue-background_52683-83027.jpg");
+        width: 100%;
+        height: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+    }
+    .mobile-banner-img .container{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+    .mobile-banner-img .container .row{
+        display: block;
+    }
+    .mobile-banner-img .container .row .banner-content1{
+        width: 100%;
+        height: 70vh;
+        /* border: 1px solid white; */
+        position: relative;
+    }
+    .mobile-banner-img .container .row .banner-content1 .marketing1{
+        width: 90%;
+        height: auto;
+        /* border: 1px solid white; */
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+    }
+    .mobile-banner-img .container .row .banner-content1 .marketing1 > h1{
+        font-size: 2.5rem;
+        text-align: center;
+       margin-top: 40%;
+        color: #fff;
+        
+    }
+    .mobile-banner-img .container .row .banner-content1 .marketing1 p{
+        margin-top: 60px;
+        color: #fff;
+        text-align: justify;
+    }
+    .mobile-banner-img .container .row .banner-content1 .marketing1 a button{
+        padding: 10px 20px;
+       margin-left: 30px;
+       border-radius: 10px;
+       border: 1px solid rgb(255, 255, 255);
+       background-color: orange;
+       color: white;
+       font-weight: bold;
+    }
+    .mobile-banner-img .container .row .banner-content2{
+        width: 100%;
+        height: 100vh;
+        /* border: 1px solid white; */
+    }
+    .mobile-banner-img .container .row .banner-content2 .form-banner{
+        width: 80%;
+        height: auto;
+        /* border: 1px solid white; */
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 5px;
+        background-image: linear-gradient(rgb(0, 22, 70),rgba(100, 100, 100, 0));
+    }
+    .mobile-banner-img .container .row .banner-content2 .form-banner > form{
+        padding: 20px;
+    
+    }
+    .mobile-banner-img .container .row .banner-content2 .form-banner > form input{
+        width: 100%;
+        height: 30px;
+        border-radius: 4px;
+        padding: 10px;
+        outline: none;
+        border: none;
+    }
+    .mobile-banner-img .container .row .banner-content2 .form-banner > form select{
+        width: 100%;
+        outline: none;
+        height: 30px;
+        border-radius: 4px;
+    }
+    .mobile-banner-img .container .row .banner-content2 .form-banner > form textarea{
+        width: 100%;
+        height: auto;
+        border-radius: 4px;
+        padding-left: 3px;
+        outline: none;
+    }
+    .mobile-banner-img .container .row .banner-content2 .form-banner > form > button{
+        padding: 10px 20px;
+        border-radius: 10px;
+        background-color: transparent;
+        border: 1px solid white;
+        width: 100%;
+        color: #fff;
+    }
+    .mobile-banner-img .container .row .banner-content2 .form-banner > form > label{
+        color: white;
+        font-size: 1.2rem;
+    }
+
+    .serivce-content .container-fluid .row .serivce-heading{
+        background-image: linear-gradient(rgb(0, 58, 116),rgba(100, 100, 100, 0.4)), url("https://cliply.co/wp-content/uploads/2019/06/401906190_ITS_COMPLICATED_400px.gif");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        width: 100%;
+        height: 200px;
+        }
+    
+}
